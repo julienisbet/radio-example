@@ -1,0 +1,11 @@
+img {
+  height: 100px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + img {
+  border: 5px solid hotpink;
+}
